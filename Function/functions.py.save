@@ -1,0 +1,4 @@
+def menu():
+
+   print("Welcome to the Phone Number Verifier")
+

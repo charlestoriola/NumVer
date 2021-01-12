@@ -1,0 +1,14 @@
+from os import system
+def next():
+    next = input("Press ENTER to Continue")
+    if next == "\n":
+        system("clear")
+        return
+    else:
+        system("clear")
+        next()
+                
+
+def verify(num):
+    if len(num) == 11 or len(num) == 10 or len(num) == 13:
+        print("Length Check")
